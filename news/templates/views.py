@@ -84,4 +84,4 @@ def new_article(request):
 
     else:
         form = NewArticleForm()
-    return render(request, 'new_article.html', {"form": form})
+        return render(request, 'new_article.html', {"form": form})
